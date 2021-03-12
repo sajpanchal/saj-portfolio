@@ -1,0 +1,90 @@
+#heading:hover {
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+#heading {
+  font-size: 1.7vw;
+  margin-right: "auto";
+  margin-left: "auto";
+  width: "50%";
+  margin-bottom: 0vw;
+}
+#divContent {
+  min-width: 50%;
+  height: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  margin-top: 0%;
+  padding: 20px;
+}
+.subtitle1 {
+  font-size: 2vw;
+  font-weight: bold;
+  margin-bottom: 0.5vw;
+}
+.linebreak {
+  margin-top: 0.1vw;
+  margin-bottom: 1vw;
+  color: black;
+}
+.subtitle2 {
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+.subtitle3 {
+  font-size: 1.5vw;
+  text-align: justify;
+  margin-bottom: 0.5vw;
+}
+.subtitle4 {
+  font-size: 1.1vw;
+  text-align: justify;
+  margin-bottom: 0.5vw;
+}
+.biotext {
+  font-size: 1vw;
+  text-align: justify;
+  margin-bottom: 0.9vw;
+}
+#sign:hover {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#sign {
+  transform: rotate(0deg);
+}
+@keyframes example {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#profile:hover {
+  transform: scale(1.5);
+  margin-top: 0;
+}
+#profile {
+  transition: transform 0.2s;
+  width: 160px;
+  margin-top: 0;
+}
+.follow:hover {
+  transform: scale(1.5);
+}
+.follow:hover {
+  transition: transform 0.2s;
+}
+.btns:hover {
+  transform: scale(1.5);
+  background-color: rgb(75, 74, 74);
+}
+.btns {
+  transition: transform 0.2s;
+  background-color: black;
+}

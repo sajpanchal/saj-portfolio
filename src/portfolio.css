@@ -1,0 +1,20 @@
+div.col123 {
+  float: left;
+  width: 8vw;
+  height: 8vw;
+  padding: 0.1vw;
+}
+* {
+  box-sizing: border-box;
+}
+.row123::after {
+  content: "";
+  clear: both;
+}
+div.row123 {
+  width: 70%;
+  display: flex;
+}
+img.icons {
+  margin-left: 10%;
+}
