@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./aboutme.css";
 import "./portfolio.css";
 import HTML5 from "./icons/HTML5.png";
@@ -33,376 +33,88 @@ function Portfolio() {
         <h4 className="subtitle2">Web Development:</h4>
         <div className="row123">
           <div class="col123">
-            <img
-              className="icons"
-              src={HTML5}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              HTML5
-            </h3>
+            <img className="icons" src={HTML5} alt="HTML5" />
+            <h3 className="iconCaption">HTML5</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={CSS3}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              CSS3
-            </h3>
+            <img className="icons" src={CSS3} alt="css3" />
+            <h3 className="iconCaption">CSS3</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={JavaScript}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              JavaScript
-            </h3>
+            <img className="icons" src={JavaScript} alt="javascript" />
+            <h3 className="iconCaption">JavaScript</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={ReactJS}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              React.js
-            </h3>
+            <img className="icons" src={ReactJS} alt="reactjs" />
+            <h3 className="iconCaption">React.js</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={NodejS}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              Node.js
-            </h3>
+            <img className="icons" src={NodejS} alt="nodejs" />
+            <h3 className="iconCaption">Node.js</h3>
           </div>
         </div>
         <h4 className="subtitle2">iOS Development:</h4>
         <div className="row123">
           <div class="col123">
-            <img
-              className="icons"
-              src={Swift}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              Swift
-            </h3>
+            <img className="icons" src={Swift} alt="swift" />
+            <h3 className="iconCaption">Swift</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={Xcode}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              Xcode IDE
-            </h3>
+            <img className="icons" src={Xcode} alt="xcode" />
+            <h3 className="iconCaption">Xcode IDE</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={UIKit}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              UIKit
-            </h3>
+            <img className="icons" src={UIKit} alt="uikit" />
+            <h3 className="iconCaption">UIKit</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={Cocoa}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              Cocoa
-            </h3>
+            <img className="icons" src={Cocoa} alt="cocoa" />
+            <h3 className="iconCaption">Cocoa</h3>
           </div>
         </div>
         <h4 className="subtitle2">Database Management:</h4>
         <div class="row123">
           <div class="col123">
-            <img
-              className="icons"
-              src={MSSQL}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              MS SQL Server
-            </h3>
+            <img className="icons" src={MSSQL} alt="mssql" />
+            <h3 className="iconCaption">MS SQL Server</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={MongoDB}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              MongoDB
-            </h3>
+            <img className="icons" src={MongoDB} alt="mongodb" />
+            <h3 className="iconCaption">MongoDB</h3>
           </div>
         </div>
         <h4 className="subtitle2">Object Oriented Programming Languages:</h4>
         <div class="row123">
           <div class="col123">
-            <img
-              className="icons"
-              src={Swift}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              Swift
-            </h3>
+            <img className="icons" src={Swift} alt="swift" />
+            <h3 className="iconCaption">Swift</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={JavaScript}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              JavaScript
-            </h3>
+            <img className="icons" src={JavaScript} alt="javascript" />
+            <h3 className="iconCaption">JavaScript</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={CSharp}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              C#
-            </h3>
+            <img className="icons" src={CSharp} alt="csharp" />
+            <h3 className="iconCaption">C#</h3>
           </div>
         </div>
         <h4 className="subtitle2">Version Control:</h4>
         <div class="row123">
           <div class="col123">
-            <img
-              className="icons"
-              src={git}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              git
-            </h3>
+            <img className="icons" src={git} alt="git" />
+            <h3 className="iconCaption">git</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={gitBash}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              GitBash
-            </h3>
+            <img className="icons" src={gitBash} alt="gitbash" />
+            <h3 className="iconCaption">GitBash</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={github}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              GitHub
-            </h3>
+            <img className="icons" src={github} alt="github" />
+            <h3 className="iconCaption">GitHub</h3>
           </div>
           <div class="col123">
-            <img
-              className="icons"
-              src={azureDevOps}
-              style={{
-                border: "0.1vw solid #555",
-                width: "80%",
-                height: "80%",
-              }}
-            />
-            <h3
-              style={{
-                textAlign: "center",
-                fontSize: "0.9vw",
-                fontWeight: "bold",
-              }}
-            >
-              Azure DevOps
-            </h3>
+            <img className="icons" src={azureDevOps} alt="azuredevops" />
+            <h3 className="iconCaption">Azure DevOps</h3>
           </div>
         </div>
       </div>

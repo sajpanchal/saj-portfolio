@@ -77,8 +77,9 @@
 .follow:hover {
   transform: scale(1.5);
 }
-.follow:hover {
+.follow {
   transition: transform 0.2s;
+  width: 1.3vw;
 }
 .btns:hover {
   transform: scale(1.5);
@@ -86,5 +87,20 @@
 }
 .btns {
   transition: transform 0.2s;
+  background-color: black;
+}
+#footerDiv {
+  height: 100%;
+  font-size: 1.3vw;
+}
+.gitbtn:hover {
+  background-color: rgb(75, 74, 74);
+}
+.gitbtn {
+  margin: auto;
+  font-size: 1vw;
+  padding: 0.5vw;
+  color: white;
+  border-radius: 0.5vw;
   background-color: black;
 }

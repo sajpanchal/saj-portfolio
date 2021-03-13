@@ -17,4 +17,13 @@ div.row123 {
 }
 img.icons {
   margin-left: 10%;
+  border: 0.1vw solid #555;
+  width: 80%;
+  height: 80%;
+}
+
+.iconCaption {
+  text-align: center;
+  font-size: 0.9vw;
+  font-weight: bold;
 }
