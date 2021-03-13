@@ -2,16 +2,17 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
 const logger = require("morgan");
+//const cors = require("cors");
 const app = express();
 var nodemailer = require("nodemailer");
 require("dotenv").config();
 
 const { USER_PASSWORD, USER_EMAIL, RECEIVER_EMAIL } = process.env;
-
+console.log(USER_PASSWORD);
 //React build app setup
 app.use(express.static(path.join(__dirname, "build"))); // serve all static files from build
 
-app.use(logger("dev"));
+//app.use(logger("dev"));
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html")); // this will keep our client side routing functional.
@@ -19,9 +20,8 @@ app.get("/", (req, res) => {
 
 app.use(bodyParser.json());
 // // allows your app to interact with the apps running on different servers.
-
-master;
-//this will set the http server response header.
+//app.use(cors());
+//this will set the htstp server response header.
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
