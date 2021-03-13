@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
 const logger = require("morgan");
-const cors = require("cors");
+//const cors = require("cors");
 const app = express();
 var nodemailer = require("nodemailer");
 require("dotenv").config();
@@ -22,7 +22,7 @@ app.post("*", (req, res) => {
 });
 app.use(bodyParser.json());
 // // allows your app to interact with the apps running on different servers.
-app.use(cors());
+//app.use(cors());
 //this will set the htstp server response header.
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
