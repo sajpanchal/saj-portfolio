@@ -10,6 +10,7 @@ class AboutMe extends React.Component {
     const data = { ...this.state.data };
     event.preventDefault();
     axios.post(`${BASE_API_URL}/api/email`, data).then((res) => {
+      console.log(res);
       console.log(res.data);
     });
   };
