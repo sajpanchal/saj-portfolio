@@ -6,13 +6,7 @@ const app = express();
 var nodemailer = require("nodemailer");
 require("dotenv").config();
 
-const {
-  SEND_GRID_KEY,
-  USER_PASSWORD,
-  USER_EMAIL,
-  RECEIVER_EMAIL,
-} = process.env;
-console.log(SEND_GRID_KEY);
+const { USER_PASSWORD, USER_EMAIL, RECEIVER_EMAIL } = process.env;
 //React build app setup
 app.use(express.static(path.join(__dirname, "build"))); // serve all static files from build
 
