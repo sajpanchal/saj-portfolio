@@ -22,6 +22,9 @@ app.get("/", (req, res) => {
 
 app.use(bodyParser.json());
 // // allows your app to interact with the apps running on different servers.
+
+
+master
 //this will set the http server response header.
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
