@@ -17,7 +17,9 @@ app.use(logger("dev"));
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html")); // this will keep our client side routing functional.
 });
-
+app.post("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html")); // this will keep our client side routing functional.
+});
 app.use(bodyParser.json());
 // // allows your app to interact with the apps running on different servers.
 app.use(cors());
