@@ -7,12 +7,10 @@ var nodemailer = require("nodemailer");
 require("dotenv").config();
 
 const {
-  SEND_GRID_KEY,
   USER_PASSWORD,
   USER_EMAIL,
   RECEIVER_EMAIL,
 } = process.env;
-console.log(SEND_GRID_KEY);
 //React build app setup
 app.use(express.static(path.join(__dirname, "build"))); // serve all static files from build
 
@@ -25,6 +23,8 @@ app.get("/", (req, res) => {
 app.use(bodyParser.json());
 // // allows your app to interact with the apps running on different servers.
 
+
+master
 //this will set the http server response header.
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
