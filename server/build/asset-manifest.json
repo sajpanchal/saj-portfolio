@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.372ffbaa.chunk.css",
-    "main.js": "/static/js/main.dd287196.chunk.js",
-    "main.js.map": "/static/js/main.dd287196.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.50d3b121.js",
-    "runtime-main.js.map": "/static/js/runtime-main.50d3b121.js.map",
-    "static/css/2.5f28c58a.chunk.css": "/static/css/2.5f28c58a.chunk.css",
-    "static/js/2.89a83b3e.chunk.js": "/static/js/2.89a83b3e.chunk.js",
-    "static/js/2.89a83b3e.chunk.js.map": "/static/js/2.89a83b3e.chunk.js.map",
-    "static/js/3.961323e2.chunk.js": "/static/js/3.961323e2.chunk.js",
-    "static/js/3.961323e2.chunk.js.map": "/static/js/3.961323e2.chunk.js.map",
+    "main.css": "/static/css/main.b86f9ba6.chunk.css",
+    "main.js": "/static/js/main.f633b6ad.chunk.js",
+    "main.js.map": "/static/js/main.f633b6ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f5d05a78.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f5d05a78.js.map",
+    "static/css/2.1aaf5aab.chunk.css": "/static/css/2.1aaf5aab.chunk.css",
+    "static/js/2.7deb635d.chunk.js": "/static/js/2.7deb635d.chunk.js",
+    "static/js/2.7deb635d.chunk.js.map": "/static/js/2.7deb635d.chunk.js.map",
+    "static/js/3.d4f62f79.chunk.js": "/static/js/3.d4f62f79.chunk.js",
+    "static/js/3.d4f62f79.chunk.js.map": "/static/js/3.d4f62f79.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.5f28c58a.chunk.css.map": "/static/css/2.5f28c58a.chunk.css.map",
-    "static/css/main.372ffbaa.chunk.css.map": "/static/css/main.372ffbaa.chunk.css.map",
-    "static/js/2.89a83b3e.chunk.js.LICENSE.txt": "/static/js/2.89a83b3e.chunk.js.LICENSE.txt",
+    "static/css/2.1aaf5aab.chunk.css.map": "/static/css/2.1aaf5aab.chunk.css.map",
+    "static/css/main.b86f9ba6.chunk.css.map": "/static/css/main.b86f9ba6.chunk.css.map",
+    "static/js/2.7deb635d.chunk.js.LICENSE.txt": "/static/js/2.7deb635d.chunk.js.LICENSE.txt",
     "static/media/Azure DevOps.74c8a8cc.png": "/static/media/Azure DevOps.74c8a8cc.png",
     "static/media/C-Sharp.7418f9d0.png": "/static/media/C-Sharp.7418f9d0.png",
     "static/media/COVID-19.2c30c28a.png": "/static/media/COVID-19.2c30c28a.png",
@@ -38,10 +38,10 @@
     "static/media/swift.350a148e.png": "/static/media/swift.350a148e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.50d3b121.js",
-    "static/css/2.5f28c58a.chunk.css",
-    "static/js/2.89a83b3e.chunk.js",
-    "static/css/main.372ffbaa.chunk.css",
-    "static/js/main.dd287196.chunk.js"
+    "static/js/runtime-main.f5d05a78.js",
+    "static/css/2.1aaf5aab.chunk.css",
+    "static/js/2.7deb635d.chunk.js",
+    "static/css/main.b86f9ba6.chunk.css",
+    "static/js/main.f633b6ad.chunk.js"
   ]
 }
