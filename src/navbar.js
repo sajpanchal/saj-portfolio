@@ -1,8 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
-import AboutMe from "./aboutme";
-import Portfolio from "./portfolio";
 function Navbar() {
   return (
     <React.StrictMode>
@@ -16,16 +14,6 @@ function Navbar() {
             role="tab"
             aria-controls="nav-home"
             aria-selected="true"
-            style={{
-              fontSize: "1.5vw",
-              height: "3.0vw",
-              padding: "0.3vw 1vw 1vw 1vw",
-              fontWeight: "normal",
-              lineHeight: "2vw",
-              border: "0.2vw solid transparent",
-              borderTopLeftRadius: "0.5vw",
-              borderTopRightRadius: "0.5vw",
-            }}
           >
             Home
           </NavLink>
@@ -37,13 +25,6 @@ function Navbar() {
             role="tab"
             aria-controls="nav-profile"
             aria-selected="false"
-            style={{
-              fontSize: "1.5vw",
-              height: "3.0vw",
-              padding: "0.3vw 1vw 1vw 1vw",
-              fontWeight: "normal",
-              lineHeight: "2vw",
-            }}
           >
             Portfolio
           </NavLink>
@@ -55,13 +36,6 @@ function Navbar() {
             role="tab"
             aria-controls="nav-contact"
             aria-selected="false"
-            style={{
-              fontSize: "1.5vw",
-              height: "3.0vw",
-              padding: "0.3vw 1vw 1vw 1vw",
-              fontWeight: "normal",
-              lineHeight: "2vw",
-            }}
           >
             Project Links
           </NavLink>
