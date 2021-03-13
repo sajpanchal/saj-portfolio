@@ -104,3 +104,21 @@
   border-radius: 0.5vw;
   background-color: black;
 }
+.contactme {
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.inputfield {
+  font-size: 1vw;
+  text-align: justify;
+  width: 20%;
+}
+.break {
+  margin-top: 0.1vw;
+  margin-bottom: 0vw;
+}
+.submit {
+  color: white;
+  background-color: black;
+}
