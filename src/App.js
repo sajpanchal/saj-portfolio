@@ -18,7 +18,7 @@ function App() {
           <Route path="/aboutme" component={AboutMe}></Route>
           <Route path="/portfolio" component={Portfolio}></Route>
           <Route path="/projectlinks" component={ProjectLinks}></Route>
-          <Route path="/" component={AboutMe}></Route>
+          <Route path="/" component={ProjectLinks}></Route>
         </Switch>
       </div>
       <footer style={{ height: "5vw" }}>

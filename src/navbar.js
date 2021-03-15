@@ -10,7 +10,7 @@ function Navbar() {
             className="nav-link"
             id="nav-home-tab"
             data-toggle="tab"
-            to="/aboutme"
+            to="/projectlinks"
             role="tab"
             aria-controls="nav-home"
             aria-selected="true"
@@ -32,12 +32,12 @@ function Navbar() {
             className="nav-link"
             id="nav-contact-tab"
             data-toggle="tab"
-            to="/projectlinks"
+            to="/aboutme"
             role="tab"
             aria-controls="nav-contact"
             aria-selected="false"
           >
-            Project Links
+            About Me
           </NavLink>
         </div>
       </nav>

@@ -210,6 +210,7 @@ class AboutMe extends React.Component {
             <br className="break"></br>
             <br className="break"></br>
             <input className="submit" type="submit" value="Submit"></input>
+            <br className="break"></br>
             {this.state.success && (
               <span className="success">
                 "your message is sent successfully!"
