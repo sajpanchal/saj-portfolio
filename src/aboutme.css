@@ -49,6 +49,24 @@
   text-align: justify;
   margin-bottom: 0.9vw;
 }
+.alerttext {
+  font-size: 1vw;
+  text-align: justify;
+  margin-bottom: 0.5vw;
+  margin-top: 0.1vw;
+  color: red;
+}
+.label {
+  margin-bottom: 0.3vw;
+}
+.success {
+  font-size: 1vw;
+  text-align: justify;
+  margin-bottom: 0.5vw;
+  margin-top: 0.1vw;
+
+  color: green;
+}
 #sign:hover {
   animation-name: example;
   animation-duration: 2s;
@@ -113,10 +131,12 @@
   font-size: 1vw;
   text-align: justify;
   width: 20%;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
 }
 .break {
-  margin-top: 0.1vw;
-  margin-bottom: 0vw;
+  margin-top: 0vw;
+  margin-bottom: 0.1vw;
 }
 .submit {
   color: white;
