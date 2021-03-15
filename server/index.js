@@ -10,7 +10,7 @@ require("dotenv").config();
 const { USER_PASSWORD, USER_EMAIL, RECEIVER_EMAIL } = process.env;
 console.log(USER_PASSWORD);
 //React build app setup
-app.use(express.static(path.join(__dirname, "build"))); // serve all static files from build
+app.use(express.static(path.join(__dirname, "..", "build"))); // serve all static files from build
 
 app.use(logger("dev"));
 

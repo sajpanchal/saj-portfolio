@@ -1,24 +1,64 @@
 import React from "react";
 import "./aboutme.css";
 import axios from "axios";
+import Joi from "joi-browser";
 import { BASE_API_URL } from "./utils/constants";
 class AboutMe extends React.Component {
   state = {
-    data: { email: "abc@gmail.com", subject: "Successful setup", message: "" },
+    data: { email: "", subject: "", message: "" },
+    errorMsg: { email: "", subject: "", message: "" },
+    success: false,
+  };
+  schema = {
+    email: Joi.string().required().email().label("Email Address"),
+    subject: Joi.string().required().min(1).max(50).label("Subject"),
+    message: Joi.string().required().min(1).label("Message"),
   };
   handleSubmit = (event) => {
-    const data = { ...this.state.data };
     event.preventDefault();
-    axios.post(`${BASE_API_URL}/api/email`, data).then((res) => {
-      console.log(res);
-      console.log(res.data);
-    });
+    let { data, errorMsg, success } = { ...this.state };
+    console.log(data);
+    const { error } = Joi.validate(data, this.schema);
+    if (error) {
+      for (let item of error.details) {
+        errorMsg[item.path[0]] = item.message;
+      }
+      console.log("errors:", errorMsg);
+      this.setState({ errorMsg: errorMsg });
+    } else {
+      axios.post(`${BASE_API_URL}/api/email`, data).then((res) => {
+        console.log(data);
+        console.log(res);
+        console.log(res.data);
+      });
+      errorMsg = { email: "", subject: "", message: "" };
+      data = { email: "", subject: "", message: "" };
+      success = true;
+
+      this.setState({ data: data, errorMsg: errorMsg, success: success });
+      console.log(this.state);
+    }
   };
   handleChange = (event) => {
-    const data = { ...this.state.data };
-    data[event.currentTarget.name] = event.currentTarget.value;
-    this.setState({ data: data });
-    console.log(this.state.data);
+    const input = { [event.currentTarget.name]: event.currentTarget.value };
+    let { data, errorMsg, success } = { ...this.state };
+    const schema = {
+      [event.currentTarget.name]: this.schema[event.currentTarget.name],
+    };
+    const { error } = Joi.validate(input, schema);
+    if (error) {
+      success = false;
+      errorMsg[event.currentTarget.name] = error.details[0].message;
+      data[event.currentTarget.name] = event.currentTarget.value;
+      this.setState({ data: data, errorMsg: errorMsg, success: success });
+      console.log(error.details[0].message);
+      console.log("state:", this.state);
+    } else {
+      data[event.currentTarget.name] = event.currentTarget.value;
+      errorMsg[event.currentTarget.name] = "";
+      this.setState({ data: data, errorMsg: errorMsg });
+      console.log(this.state);
+    }
   };
   render() {
     return (
@@ -118,10 +158,12 @@ class AboutMe extends React.Component {
           </p>
         </div>
         <div className="bg-light border" id="divContent">
-          <h4 className="subtitle1">Contact Me</h4>
+          <h4 className="subtitle1">
+            <i class="fas fa-phone-alt"></i> Contact Me
+          </h4>
           <hr className="linebreak"></hr>
           <form className="contactme" onSubmit={this.handleSubmit}>
-            <label>Email:</label>
+            <label className="label">Email:</label>
             <br className="break"></br>
             <input
               className="inputfield"
@@ -130,9 +172,13 @@ class AboutMe extends React.Component {
               placeholder="Enter your Email"
               value={this.state.data.email}
               onChange={this.handleChange}
-            ></input>
+            ></input>{" "}
             <br className="break"></br>
-            <label>Subject:</label>
+            {this.state.errorMsg.email.length > 0 && (
+              <span className="alerttext">{this.state.errorMsg.email}</span>
+            )}
+            <br className="break"></br>
+            <label className="label">Subject:</label>
             <br className="break"></br>
             <input
               className="inputfield"
@@ -141,9 +187,13 @@ class AboutMe extends React.Component {
               placeholder="What are you looking for?"
               value={this.state.data.subject}
               onChange={this.handleChange}
-            ></input>
+            ></input>{" "}
             <br className="break"></br>
-            <label>Message:</label>
+            {this.state.errorMsg.subject.length > 0 && (
+              <span className="alerttext">{this.state.errorMsg.subject}</span>
+            )}
+            <br className="break"></br>
+            <label className="label">Message:</label>
             <br className="break"></br>
             <textarea
               className="inputfield"
@@ -154,8 +204,17 @@ class AboutMe extends React.Component {
               onChange={this.handleChange}
             ></textarea>
             <br className="break"></br>
+            {this.state.errorMsg.message.length > 0 && (
+              <span className="alerttext">{this.state.errorMsg.message}</span>
+            )}
+            <br className="break"></br>
             <br className="break"></br>
             <input className="submit" type="submit" value="Submit"></input>
+            {this.state.success && (
+              <span className="success">
+                "your message is sent successfully!"
+              </span>
+            )}
           </form>
         </div>
       </React.StrictMode>
