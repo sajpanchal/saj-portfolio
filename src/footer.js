@@ -13,15 +13,23 @@ function Footer() {
       <b>Email:&nbsp;&nbsp; </b>
       sajpanchal2020@outlook.com&nbsp;&nbsp;&#124;&nbsp;&nbsp;
       <b>Follow On:&nbsp;&nbsp;</b>
-      <a href="https://www.linkedin.com/in/saj-panchal-226106b2">
+      <a
+        href="https://www.linkedin.com/in/saj-panchal-226106b2"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="follow" src={linkedlin_logo} alt="linkedlinlogo" />
       </a>
       &nbsp;&nbsp;
-      <a href="https://github.com/sajpanchal">
+      <a href="https://github.com/sajpanchal" target="_blank" rel="noreferrer">
         <img className="follow" src={githublogo} alt="githublogo" />
       </a>
       &nbsp;&nbsp;
-      <a href="https://www.instagram.com/sajpanchal">
+      <a
+        href="https://www.instagram.com/sajpanchal"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="follow" src={instagramlogo} alt="instagramlogo" />
       </a>
       &nbsp;&nbsp;&#124;&nbsp;&nbsp; Copyright &copy; 2020 sajpanchal&nbsp;All
