@@ -76,85 +76,46 @@ class AboutMe extends React.Component {
           </h3>
           <hr className="linebreak"></hr>
           <p className="biotext">
-            <span class="first_letter">H</span>ello! My name is
-            <strong>
-              {" "}
-              <i> Saj Panchal</i>
-            </strong>
-            . Welcome to my personal web-site. First, I want to tell about
-            myself in a brief summary. on this page, I have put all the personal
-            information about me. I came to Canada from India about 4 years ago.
-            I have been living in Waterloo since last 2 years and I love living
-            in this awesome town.
+            <span class="first_letter">H</span>ello! My name is Saj Panchal .
+            Welcome to my personal web-site. First, I want to tell about myself.
+            I came to Canada from India in 2016. I have been living in Waterloo
+            since 2018.
           </p>
           <p className="biotext">
-            Talking about my education, I finished my high school from
-            <strong>
-              <i> St. Xavier’s Surat, Gujarat, India (year 2010) </i>
-            </strong>
-            . Then I went ahead to do engineering and I graduated from
-            <strong>
-              {" "}
-              <i>SVIT college (part of GTU)</i>{" "}
-            </strong>{" "}
-            with
-            <strong>
-              <i>B.Eng. in Electronics and Communication (year 2014) </i>
-            </strong>
-            . After that, I wanted to go abroad to study further to do
-            specialization in automation field. So, I applied to
-            <strong>
-              {" "}
-              <i>Robotics and Industrial automation</i>
-            </strong>{" "}
-            program being delivered in{" "}
-            <strong>
-              {" "}
-              <i>Conestoga college </i>
-            </strong>{" "}
-            which is a specialization program that provides hands-on learning.
+            Talking about my Academic Background, I am recently graduated from a
+            GED program of Mobile Solutions Development at Conestoga college in
+            May 2021. Previously, I did my bachelor's in Engineering from SVIT,
+            Gujarat, India in the field of Electronics and Communication
+            Engineering (4 Years). Because of my immense interest in software
+            programming, object-oriented coding and a background in iOS
+            Development from India, I enrolled in this program of Mobile
+            solutions Development. In this program, I have learnt many
+            web-development and mobile development technologies, frameworks and
+            languages. Furthermore, I got a chance to work on many projects in
+            an agile team environment where we worked extensively in a
+            collaborative manner and we have been using git and azure DevOps
+            tools for version control to keep our contribution to projects in
+            sync. In these 2 years of my academic terms, I have worked
+            diligently on assignments and projects and as a result, I graduated
+            with a distinction with a GPA of 3.91.
           </p>
           <p className="biotext">
-            After graduation, I was offered a job as a set-up technician at
-            <strong>
-              {" "}
-              <em> Linamar Corp, Guelph, Ontario (year 2018)</em>{" "}
-            </strong>
-            . I was assigned to work in one of the production lines in the
-            automation assembly plant. I was given a responsibility to monitor
-            the production workers, machines, robots and the whole process of
-            assembly of automotive parts. So, in general my work includes
-            troubleshoot, recover, set-up the malfunctioning machines or robots,
-            occasional preventive maintenance of various cells and daily
-            production reporting to the production supervisor. I liked that job
-            but I wanted to do something more creative and something in which I
-            am more interested of.
-          </p>
-          <p className="biotext">
-            As I love coding and I previously demonstrated my ability to develop
-            applications in various platforms such as Windows, IOS and HMI
-            (automation systems) I chose to study in IT field. And, I came to
-            know about the
-            <strong>
-              {" "}
-              <i> Mobile solutions Development </i>
-            </strong>
-            program being delivered at Conestoga college campus which is nearby
-            to location where I have been living. I found that program
-            interesting as it was matching with most of the thing that I did in
-            past and things in which I want to learn further. Now, my goal is to
-            graduate from this program with high GPA and become an iOS developer
-            or full-stack developer.
-          </p>
-          <p className="biotext">
-            Talking about my hobbies and interests, I love reading, watching
-            cricket, listening to the music, and traveling. On top of all that,
-            I like to help others and I love being independent. As of that, I
-            work for Door Dash as a delivery driver which is a perfect platform
-            for me to earn money and at the same time, a sort of opportunity to
-            help people. Moreover, I work completely independent as I can choose
-            at what time I want to work, where I want to work and for how many
-            days and hours a week I want to work. It is as if I am my own boss.
+            I have experience developing mobile apps on the iOS platform for
+            about 2 years. I have created mobile apps such as
+            PersonalAccountingApp (CoreData based money spending note-taker app)
+            MyWeather (weather app), COVID-19 (COVID pandemic awareness app),
+            Slide & Score (game app). I made these apps in Swift programming
+            language and proficiently used cocoa frameworks such UIKit, MapKit,
+            Core Location, JSON APIs, Auto Layout. I am currently learning Core
+            Data, SwiftUI, Core ML, Core Animation and Core Motion to take my
+            iOS development skills to the next level. I am also planning to
+            become an independent iOS developer to create some innovative and
+            business solution Apps in near future. Also, I have a goal to deploy
+            some of my apps to the Apple Store. As a long-term goal, I have a
+            strong desire to become a cross-platform App developer with React
+            Native. Moreover, I have been working on some mobile app and web app
+            projects with Agile teams and we have been using GitHub and Azure
+            DevOps for version control and collaboration in projects.
           </p>
         </div>
         <div className="bg-light border" id="divContent">
