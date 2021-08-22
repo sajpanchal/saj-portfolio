@@ -4,7 +4,7 @@ import Myforcast from "./assets/Myforcast.png";
 import COVID19 from "./assets/COVID-19.png";
 import SlideScore from "./assets/SlideScore.PNG";
 import Capstone from "./assets/Capstone.png";
-import MyExpense from "./assets/MyExpense.png";
+import MyExpense from "./assets/PersonalAccountingApp.png";
 import "./aboutme.css";
 function ProjectLinks() {
   return (
