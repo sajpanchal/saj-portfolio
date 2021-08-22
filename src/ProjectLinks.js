@@ -4,6 +4,7 @@ import Myforcast from "./assets/Myforcast.png";
 import COVID19 from "./assets/COVID-19.png";
 import SlideScore from "./assets/SlideScore.PNG";
 import Capstone from "./assets/Capstone.png";
+import MyExpense from "./assets/MyExpense.png";
 import "./aboutme.css";
 function ProjectLinks() {
   return (
@@ -107,6 +108,31 @@ function ProjectLinks() {
               <button className="gitbtn">
                 <a
                   href="https://github.com/sajpanchal/Capstone-Project-Front-End/blob/master/Capstone%20Project%20Video.mp4"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub&nbsp;&nbsp; <i className="fab fa-github"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="card mt-4" style={{ width: "40%", height: "40%" }}>
+            <img className="card-img-top" src={MyExpense} alt="Card" />
+            <div
+              className="card-body text-center"
+              style={{ width: "100%", margin: "auto" }}
+            >
+              <h4 className="card-title" style={{ fontSize: "1vw" }}>
+                MyExpense iOS App
+              </h4>
+              <p className="card-text" style={{ fontSize: "1vw" }}>
+                Video Demo
+              </p>
+
+              <button className="gitbtn">
+                <a
+                  href="https://github.com/sajpanchal/PersonalAccountingApp/blob/master/My%20Expense%20App%20Demo.avi"
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noreferrer"
