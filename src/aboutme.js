@@ -101,26 +101,26 @@ class AboutMe extends React.Component {
           </p>
           <p className="biotext">
             I have experience developing mobile apps on the iOS platform for
-            about 2 years. I have created mobile apps such as
-            PersonalAccountingApp (CoreData based money spending note-taker app)
-            MyWeather (weather app), COVID-19 (COVID pandemic awareness app),
-            Slide & Score (game app). I made these apps in Swift programming
-            language and proficiently used cocoa frameworks such UIKit, MapKit,
-            Core Location, JSON APIs, Auto Layout. I am currently learning Core
-            Data, SwiftUI, Core ML, Core Animation and Core Motion to take my
-            iOS development skills to the next level. I am also planning to
-            become an independent iOS developer to create some innovative and
-            business solution Apps in near future. Also, I have a goal to deploy
-            some of my apps to the Apple Store. As a long-term goal, I have a
-            strong desire to become a cross-platform App developer with React
-            Native. Moreover, I have been working on some mobile app and web app
-            projects with Agile teams and we have been using GitHub and Azure
-            DevOps for version control and collaboration in projects.
+            about 2 years. I have created mobile apps such as My Expense
+            (Available on App Store), MyWeather (weather app), COVID-19 (COVID
+            pandemic awareness app), Slide & Score (game app). I made these apps
+            in Swift programming language and proficiently used cocoa frameworks
+            such UIKit, MapKit, Core Location, JSON APIs, Auto Layout. I am
+            currently learning Core Data, SwiftUI, Core ML, Core Animation and
+            Core Motion to take my iOS development skills to the next level. I
+            am also planning to become an independent iOS developer to create
+            some innovative and business solution Apps in near future. Also, I
+            have a goal to deploy some of my apps to the Apple Store. As a
+            long-term goal, I have a strong desire to become a cross-platform
+            App developer with React Native. Moreover, I have been working on
+            some mobile app and web app projects with Agile teams and we have
+            been using GitHub and Azure DevOps for version control and
+            collaboration in projects.
           </p>
         </div>
         <div className="bg-light border" id="divContent">
           <h4 className="subtitle1">
-            <i class="fas fa-phone-alt"></i> Contact Me
+            <i class="fas fa-phone-alt" id="sign"></i> Contact Me
           </h4>
           <hr className="linebreak"></hr>
           <form className="contactme" onSubmit={this.handleSubmit}>

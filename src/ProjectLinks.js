@@ -48,12 +48,12 @@ function ProjectLinks() {
 
               <button className="gitbtn">
                 <a
-                  href="https://github.com/sajpanchal/PersonalAccountingApp/blob/master/My%20Expense%20App%20Demo.avi"
+                  href="https://apps.apple.com/us/app/my-expense/id1587008455"
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  GitHub&nbsp;&nbsp; <i className="fab fa-github"></i>
+                  <i className="fab fa-apple"></i>&nbsp;Available on App Store
                 </a>
               </button>
             </div>
@@ -94,7 +94,7 @@ function ProjectLinks() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  GitHub&nbsp;&nbsp; <i className="fab fa-github"></i>
+                  <i className="fab fa-github"></i>&nbsp;GitHub
                 </a>
               </button>
             </div>
@@ -135,7 +135,7 @@ function ProjectLinks() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  GitHub&nbsp;&nbsp; <i className="fab fa-github"></i>
+                  <i className="fab fa-github"></i>&nbsp;GitHub
                 </a>
               </button>
             </div>
@@ -176,7 +176,7 @@ function ProjectLinks() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  GitHub&nbsp;&nbsp; <i className="fab fa-github"></i>
+                  <i className="fab fa-github"></i>&nbsp;GitHub
                 </a>
               </button>
             </div>
@@ -217,7 +217,7 @@ function ProjectLinks() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  GitHub&nbsp;&nbsp; <i className="fab fa-github"></i>
+                  <i className="fab fa-github"></i>&nbsp;GitHub
                 </a>
               </button>
             </div>

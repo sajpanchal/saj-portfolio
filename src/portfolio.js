@@ -12,6 +12,7 @@ import UIKit from "./icons/UIKit.png";
 import Cocoa from "./icons/Cocoa Touch.png";
 import CSharp from "./icons/C-Sharp.png";
 import git from "./icons/git.png";
+import swiftUI from "./icons/SwiftUI.png";
 import gitBash from "./icons/Git-bash.png";
 import github from "./icons/github.png";
 import azureDevOps from "./icons/Azure DevOps.png";
@@ -58,6 +59,10 @@ function Portfolio() {
           <div class="col123">
             <img className="icons" src={Swift} alt="swift" />
             <h3 className="iconCaption">Swift</h3>
+          </div>
+          <div class="col123">
+            <img className="icons" src={swiftUI} alt="swiftUI" />
+            <h3 className="iconCaption">SwiftUI</h3>
           </div>
           <div class="col123">
             <img className="icons" src={Xcode} alt="xcode" />
