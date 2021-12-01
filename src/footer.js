@@ -2,6 +2,8 @@ import React from "react";
 import linkedlin_logo from "./assets/linkedlin_logo.png";
 import githublogo from "./assets/github_logo.PNG";
 import instagramlogo from "./assets/Instagram_logo.png";
+import fiverrlogo from "./assets/Fiverr_Logo.png";
+import facebooklogo from "./assets/facebook_logo.png";
 import "./aboutme.css";
 function Footer() {
   return (
@@ -23,6 +25,22 @@ function Footer() {
       &nbsp;&nbsp;
       <a href="https://github.com/sajpanchal" target="_blank" rel="noreferrer">
         <img className="follow" src={githublogo} alt="githublogo" />
+      </a>
+      &nbsp;&nbsp;
+      <a
+        href="https://www.fiverr.com/share/V7WoYY"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="follow" src={fiverrlogo} alt="fiverrlogo" />
+      </a>
+      &nbsp;&nbsp;
+      <a
+        href="https://www.facebook.com/sajpanchal2021"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="follow" src={facebooklogo} alt="facebooklogo" />
       </a>
       &nbsp;&nbsp;
       <a
