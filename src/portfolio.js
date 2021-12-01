@@ -129,33 +129,34 @@ function Portfolio() {
           <i className="fas fa-briefcase" id="sign"></i> Project
         </h3>
         <hr className="linebreak"></hr>
-        <h4 className="subtitle2">iOS Application - BookMyShow App replica</h4>
+        <h4 className="subtitle2">My Expense - iOS App</h4>
         <dl className="subtitle3">
           <dt>
             <u className="subtitle4">Brief summary:</u>
           </dt>
           <dd className="biotext">
-            This is the online mobile application. It is a smart phone
-            application developed for IOS platform. This application is designed
-            to provide the information about the movies or shows screening in
-            theatres located in different cities of India and it also show how
-            many seats are available including seat class and its price.
+            This is the personal financing app supported with iCloud to store
+            and sync data across multiple iOS devices. It allows user to record
+            expenses and earnings and based on that the app is going to generate
+            an expense summary and gives monthly and annual savings details.
           </dd>
           <dt>
             <u className="subtitle4">Technical Details: </u>
           </dt>
           <dd className="biotext">
-            This Application was developed in Objective-c language. The App is
-            designed with a attractive and glamourous UI elements and background
-            images. All the UI elements used from apple's UIkit such
-            ascontrollers/segueing, auto layout constraints, AlertViews,
-            ScrollViews, StackViews, SegmentedControls, images, logos etc. the
-            Application was supported by third-party API to gather the movie
-            theatres, events, cities and seat info from all Over India. to
-            manage the registed users the app is connected with MySQL server.
+            iOS App with CoreData + CloudKit framework support to store the
+            expenses and calculate total expenses of days, months and years. It
+            also gives user the insight of monthly savings by collecting monthly
+            income and deducting monthly expense from it. Secured data by
+            authenticating user sign in with Apple ID. Use one iCloud account to
+            store and sync app data to multiple iOS devices. Utilized wide range
+            of UI elements provided by Apple XCode IDE. Successfully developed a
+            responsive app featuring Custom Table View Controller, Navigation
+            View Controller, Tab bar Controller, auto-layout constraints,
+            AlertViews, SegmentedControls etc.
           </dd>
         </dl>
-        <h4 className="subtitle2">iOS Application - COVID-19</h4>
+        <h4 className="subtitle2">COVID-19 - iOS App</h4>
         <dl className="subtitle3">
           <dt>
             <u className="subtitle4">Brief summary:</u>
@@ -184,30 +185,32 @@ function Portfolio() {
             specific country.
           </dd>
         </dl>
-        <h4 className="subtitle2">Full-stack web Application - eCommerce</h4>
+        <h4 className="subtitle2">My Forecast - iOS App</h4>
         <dl className="subtitle3">
           <dt>
             <u className="subtitle4">Brief summary:</u>
           </dt>
           <dd className="biotext">
-            Designed a full stack web application for eCommerce. It will allow
-            customers to view products available for online purchase. they can
-            then select one or more and also each product's quantity. the
-            selected products will then be added to cart. from there they can
-            further edit or delete the selected products and finally the full
-            amount with/without shipping cost of the puchased products will be
-            reflected in cart. customer then confirms their purchases.
+            This is the iOS App using a third-party API to get the weather
+            forecast data of your device's set location. This app shows weather
+            forecast of 5 days including the present day. User can view the
+            weather forecast in more details by tapping a desired day. It shows
+            weather data such as temperature, feels-like temperature,
+            sunrise-sunset times, wind speed, himidity and air pressure.
           </dd>
           <dt>
             <u className="subtitle4">Technical Details: </u>
           </dt>
           <dd className="biotext">
-            the stack on which this web application is built is Vuejs, Nodejs
-            and Mongodb. Proficiently utilized bootstraps to make the web UI
-            appealing, professional and pleasant for better user experience.
-            Proper user inputs/credentials validation techniques, error
-            handling, server request authentication is practiced that meets the
-            HTTP standards.
+            Developed an application that gives the 5-day weather forecast of
+            your current location. Used an API from OpenWeatherMap.org to get
+            the weather data such as temperature, location, humidity etc. and
+            parsed the data into an app using JSON parsing. Skillfully utilized
+            the TableView and TableViewCell elements to accommodate the 7-day
+            weather data in an organized manner. Successfully implemented
+            methods and code blocks to switch the weather data from Metric to
+            imperial units. (API is not providing unit conversions for all
+            weather data).
           </dd>
         </dl>
       </div>
