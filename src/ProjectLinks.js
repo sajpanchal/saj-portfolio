@@ -5,6 +5,7 @@ import COVID19 from "./assets/COVID-19.png";
 import SlideScore from "./assets/SlideScore.PNG";
 import Capstone from "./assets/Capstone.png";
 import MyExpense from "./assets/PersonalAccountingApp.png";
+import expiremind from "./assets/expiremind.png";
 import "./aboutme.css";
 function ProjectLinks() {
   return (
@@ -17,6 +18,48 @@ function ProjectLinks() {
       </p>
       <div className="bg-light border" id="divContent">
         <div className="d-flex flex-wrap justify-content-around ">
+          <div className="card mt-4" style={{ width: "40%", height: "40%" }}>
+            <img className="card-img-top" src={expiremind} alt="Card" />
+            <div>
+              <p
+                className="card-subtitle"
+                style={{
+                  fontSize: "1vw",
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  backgroundColor: "black",
+                  color: "white",
+                  width: "30%",
+                  float: "right",
+                }}
+              >
+                Nov 2021
+              </p>
+            </div>
+            <div
+              className="card-body text-center"
+              style={{ width: "100%", margin: "auto" }}
+            >
+              <h4 className="card-title" style={{ fontSize: "1vw" }}>
+                ExpiRemind iOS App
+              </h4>
+              <p className="card-text" style={{ fontSize: "1vw" }}>
+                Available in App Store
+              </p>
+
+              <button className="gitbtn">
+                <a
+                  href="https://apple.co/3yRq0DL"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-apple"></i>&nbsp;Download from App Store
+                </a>
+              </button>
+            </div>
+          </div>
+
           <div className="card mt-4" style={{ width: "40%", height: "40%" }}>
             <img className="card-img-top" src={MyExpense} alt="Card" />
             <div>
@@ -40,10 +83,10 @@ function ProjectLinks() {
               style={{ width: "100%", margin: "auto" }}
             >
               <h4 className="card-title" style={{ fontSize: "1vw" }}>
-                MyExpense iOS App
+                My Expense iOS App
               </h4>
               <p className="card-text" style={{ fontSize: "1vw" }}>
-                Video Demo
+                Available in App Store
               </p>
 
               <button className="gitbtn">
@@ -53,7 +96,7 @@ function ProjectLinks() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className="fab fa-apple"></i>&nbsp;Available on App Store
+                  <i className="fab fa-apple"></i>&nbsp;Download from App Store
                 </a>
               </button>
             </div>
